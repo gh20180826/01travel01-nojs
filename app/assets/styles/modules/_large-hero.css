@@ -14,8 +14,8 @@
 
    &__title {
       font-weight: 300;
-      font-size: 1.1rem;
       color: $mainBlue;
+      font-size: 1.1rem;
       margin: 0;
    }
 
