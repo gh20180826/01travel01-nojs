@@ -17,3 +17,13 @@
       @mixin-content;
    }
 }
+
+
+@define-mixin clearfix {
+   /* this "after" rule "clears the float" without having to add an empty "div" in the HTML (see row.css and vid 22) */
+   &::after {
+      content: "";
+      clear: both;
+      display: table;
+   }
+}

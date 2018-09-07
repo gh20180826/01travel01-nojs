@@ -351,6 +351,10 @@ img {
    height: auto;
 }
 
+* {
+   box-sizing: border-box; /* padding is applied but wont effect 100% width calulation in table layouts */
+}
+
 .large-hero {
    border-bottom: 10px solid #2f5572;
    position: relative;
@@ -442,6 +446,7 @@ img {
    }
 
 .wrapper {
+   overflow: hidden; /* for explanation, see .row and vid 22 for column layouts */
    padding-left: 18px;
    padding-right: 18px;
    max-width: 1200px;
@@ -456,4 +461,38 @@ img {
 .page-section--blue {
       background-color: #2f5572;
       color: #FFF;
+   }
+
+/* this "after" rule "clears the float" without having to add an empty "div" in the HTML (see row.css and vid 22) */
+
+.row::after {
+      content: "";
+      clear: both;
+      display: table;
+   }
+
+/* this mixin "clears the float" without having to add an empty "div" in the HTML (see mixins.css and vid 22) */
+
+.row--gutters {
+      margin-right: -65px; /* see vid 22 and below */
+   }
+
+/* box-sizing is applied globally */
+
+.row--gutters > div {
+      padding-right: 65px;
+   }
+
+/* the "> div" selects all direct children of "row" */
+
+@media (min-width: 800px) {
+      .row__medium-4 {
+         float: left;
+         width: 33.33%;
+      }
+
+      .row__medium-8 {
+         float: left;
+         width: 66.66%;
+      }
    }

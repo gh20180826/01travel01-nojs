@@ -1,0 +1,30 @@
+.row {
+
+
+   /* this mixin "clears the float" without having to add an empty "div" in the HTML (see mixins.css and vid 22) */
+   @mixin clearfix;
+
+
+   &--gutters {
+      margin-right: -65px; /* see vid 22 and below */
+   }
+
+
+   /* the "> div" selects all direct children of "row" */
+   /* box-sizing is applied globally */
+   &--gutters > div {
+      padding-right: 65px;
+   }
+
+   @mixin atMedium {
+      &__medium-4 {
+         float: left;
+         width: 33.33%;
+      }
+
+      &__medium-8 {
+         float: left;
+         width: 66.66%;
+      }
+   }
+}

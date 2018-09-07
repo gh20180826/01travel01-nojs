@@ -7,3 +7,7 @@ img {
    max-width: 100%;
    height: auto;
 }
+
+* {
+   box-sizing: border-box; /* padding is applied but wont effect 100% width calulation in table layouts */
+}
