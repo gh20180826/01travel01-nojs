@@ -615,3 +615,13 @@ a {
 .generic-content-container p a {
       font-weight: 700;
    }
+
+.section-title {
+   font-size: 3.75rem;
+   font-weight: 100;
+   text-align: center;
+}
+
+.section-title strong {
+      font-weight: 500;
+   }
