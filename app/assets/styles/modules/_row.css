@@ -4,6 +4,9 @@
    /* this mixin "clears the float" without having to add an empty "div" in the HTML (see mixins.css and vid 22) */
    @mixin clearfix;
 
+   &--t-padding {
+      padding-top: 80px;
+   }
 
    &--gutters {
       margin-right: -65px; /* see vid 22 and below */
@@ -11,6 +14,10 @@
 
    &--gutters-large {
       margin-right: -100px;
+   }
+
+   &--gutters-small {
+      margin-right: -45px;
    }
 
 
@@ -22,6 +29,10 @@
 
    &--gutters-large > div {
       padding-right: 100px;
+   }
+
+   &--gutters-small > div {
+      padding-right: 45px;
    }
 
    &__b-margin-until-medium {
@@ -57,4 +68,17 @@
          width: 63%;
       }
    }
+
+   /* Begin Equal Height Rules */
+   &--equal-height-at-medium {
+      @mixin atMedium {
+         display: flex;
+      }
+
+      & > div {
+         float: none;
+         display: flex;
+      }
+   }
+
 }
