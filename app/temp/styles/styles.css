@@ -886,83 +886,107 @@ a {
 /* do not edit this (modules/_sprite) directly as it is generated automatically by Gulp. Instead, edit gulp/templates/sprite */
 
 .icon {
-         background-image: url('/assets/images/sprites/sprite-12daac85.svg');
+         background-image: url('/assets/images/sprites/sprite-5889d96c.svg');
       }
 
 .icon--clear-view-escapes {
       width: 142.4px;
       height: 59.53px;
-      background-position: 0 0;
+      background-position: 96.15630051901643% 25.40260864635887%;
    }
 
 .icon--comment {
       width: 64px;
       height: 64px;
-      background-position: 0 99.9055172413793%;
+      background-position: 93.05269658295595% 32.943853305785126%;
    }
 
 .icon--facebook {
       width: 21.23px;
       height: 42.01px;
-      background-position: 99.56096458662878% 63.51278519671836%;
+      background-position: 99.79286098625681% 25.175307330476663%;
    }
 
 .icon--fire {
       width: 56px;
       height: 64px;
-      background-position: 51.78181818181818% 44.13793103448276%;
+      background-position: 95.3734099302421% 32.943853305785126%;
    }
 
 .icon--globe {
       width: 64px;
       height: 64px;
-      background-position: 75.80524344569288% 0;
+      background-position: 99.28295594895019% 28.53615702479339%;
    }
 
 .icon--instagram {
       width: 42.01px;
       height: 42.01px;
-      background-position: 92.18312052320148% 63.51278519671836%;
+      background-position: 92.21783850607306% 35.842522178356376%;
    }
 
 .icon--mail {
       width: 64px;
       height: 48px;
-      background-position: 23.970037453183522% 89.97701863354037%;
+      background-position: 98.91519143680527% 25.252561475409838%;
    }
 
-.icon--peace02 {
+.icon--peace03 {
+      width: 66px;
+      height: 74px;
+      background-position: 96.64536464771324% 28.684319833852545%;
+   }
+
+.icon--pre--83541 {
+      width: 492.93px;
+      height: 492.93px;
+      background-position: 99.99650012249572% 0;
+   }
+
+.icon--pre--peace {
+      width: 2000px;
+      height: 2000px;
+      background-position: 0 0;
+   }
+
+.icon--pre--peace02 {
       width: 85.333px;
       height: 85.333px;
-      background-position: 0 48.13733655704432%;
+      background-position: 93.87718484325283% 28.854103611750766%;
+   }
+
+.icon--pre--proxy.duckduckgo.com {
+      width: 260.25px;
+      height: 260.25px;
+      background-position: 89.57563542716382% 28.333381232935768%;
    }
 
 .icon--rain {
       width: 64px;
       height: 64px;
-      background-position: 99.77528089887639% 0;
+      background-position: 84.97324001646768% 38.90392561983471%;
    }
 
 .icon--star {
       width: 64px;
       height: 64px;
-      background-position: 75.80524344569288% 44.13793103448276%;
+      background-position: 82.33841086867024% 38.90392561983471%;
    }
 
 .icon--twitter {
       width: 51.78px;
       height: 42.06px;
-      background-position: 95.40863834968839% 38.33712711153708%;
+      background-position: 99.96026576875498% 32.57469585380553%;
    }
 
 .icon--wifi {
       width: 60px;
       height: 64px;
-      background-position: 52.54612546125461% 0;
+      background-position: 97.83189478010686% 32.943853305785126%;
    }
 
 .icon--youtube {
       width: 34.75px;
       height: 42px;
-      background-position: 89.92405063291137% 88.66467065868264%;
+      background-position: 93.65442896369369% 35.842339121552605%;
    }
