@@ -1,0 +1,19 @@
+
+
+
+
+
+this is the travel site up to right before the point where javascript is added (ie everything thru vid 36)
+
+
+
+
+
+
+
+
+
+
+
+
+
